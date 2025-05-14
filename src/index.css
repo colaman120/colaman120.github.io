@@ -9,6 +9,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./media/winter.gif), url(./media/popping.gif);
+  background-position: top center;
+  background-repeat: no-repeat, repeat;
+}
+
+h1 {
+  margin: 10%;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
 }
 
 .nav { 
@@ -43,7 +53,7 @@ body {
 }
 
 .nav li.active {
-  background-color: purple;
+  background-color: rgb(251, 255, 0);
 }
 
 .nav li:hover {
