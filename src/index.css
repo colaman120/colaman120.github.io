@@ -15,9 +15,11 @@ body {
 }
 
 h1 {
+  background-image: url(./media/winter.jpeg);
   margin: 10%;
-  background-color: white;
+  background-color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
   text-align: left;
 }
 

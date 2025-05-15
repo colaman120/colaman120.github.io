@@ -3,6 +3,7 @@ import Navbar from './Navbar.js';
 import About from './pages/about.js';
 import Food from './pages/food.js';
 import Media from './pages/media.js';
+import Sports from "./pages/sports.js";
 import Home from './pages/home.js';
 import { Route, Routes } from "react-router-dom";
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/food" element={<Food/>} />
         <Route path="/media" element={<Media/>} />
+        <Route path="/sports" element={<Sports/>}/>
         <Route path="/about" element={<About/>} />
       </Routes>
     </div>

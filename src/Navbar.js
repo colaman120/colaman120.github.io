@@ -9,6 +9,7 @@ export default function Navbar() {
         <ul>
             <CustomLink to="/food">Food</CustomLink>
             <CustomLink to="/media">Media</CustomLink>
+            <CustomLink to="/sports">Sports</CustomLink>
             <CustomLink to="/about">About</CustomLink>
         </ul>
     </nav>
