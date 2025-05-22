@@ -1,12 +1,11 @@
-import React, { Fragment, Component } from 'react';
+import { Fragment, Component } from 'react';
 import Helmet from 'react-helmet';
 import ReactMarkdown from 'react-markdown';
 
 const importAll = (r) => r.keys().map(r);
-var markdownFiles = importAll(require.context('posts/mediaposts', false, /\.md$/))
-  .reverse();
+var markdownFiles = importAll(require.context('posts/mediaposts', false, /\.md$/));
 var half_length = Math.ceil(markdownFiles.length / 2);    
-markdownFiles = markdownFiles.slice(0,half_length);
+markdownFiles = markdownFiles.slice(0,half_length).sort().reverse();
 
 class Media extends Component {
     state = {
@@ -16,8 +15,6 @@ class Media extends Component {
     async componentDidMount() {
         const posts = await Promise.all(markdownFiles.map((file) => fetch(file).then((res) => res.text())))
             .catch((err) => console.error(err));
-        console.log(markdownFiles);
-
         this.setState((state) => ({ ...state, posts }));
     }
 
@@ -27,7 +24,7 @@ class Media extends Component {
         const { posts } = this.state;
         return (
         <Fragment>
-            <Helmet title="The Gang Talks About Sports" />
+            <Helmet title="Letterboxd Hate" />
             <section className="section">
                 <div>
                 {
