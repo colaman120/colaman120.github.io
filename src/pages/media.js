@@ -18,8 +18,6 @@ class Media extends Component {
         this.setState((state) => ({ ...state, posts }));
     }
 
-    
-
     render() {
         const { posts } = this.state;
         return (
