@@ -22,7 +22,7 @@ class Sports extends Component {
         const { posts } = this.state;
         return (
         <Fragment>
-            <Helmet title="The Gang Talks About Sports" />
+            <Helmet title="Extend Kyle Tucker" />
             <section className="section">
                 <div>
                 {
