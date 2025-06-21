@@ -14,9 +14,13 @@ body {
   background-repeat: no-repeat, repeat;
 }
 
+
 .card {
   background-color: black;
-  margin: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   border-radius: 5px;
 }
 
