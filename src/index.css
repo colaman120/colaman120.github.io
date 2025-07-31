@@ -9,9 +9,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(./media/winter.gif), url(./media/pouty_winter.gif);
+  /* background-image: url(./media/winter.gif), url(./media/pouty_winter.gif);
   background-position: top center;
-  background-repeat: no-repeat, repeat;
+  background-repeat: no-repeat, repeat; */
+  background-color: magenta;
 }
 
 
