@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8eb4703e.css",
-    "main.js": "/static/js/main.8bd06e01.js",
+    "main.js": "/static/js/main.b95681e4.js",
     "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
     "static/media/creative-doodle-art-seamless-pattern-with-different-shapes-textures_101151-1989.jpg": "/static/media/creative-doodle-art-seamless-pattern-with-different-shapes-textures_101151-1989.a45717ab1d60a72ab7d8.jpg",
     "static/media/250616.md": "/static/media/250616.834be6fa2fbaa1376d56.md",
@@ -22,11 +22,11 @@
     "static/media/250818.md": "/static/media/250818.e5279595c0cffc40e34c.md",
     "static/media/250522.md": "/static/media/250522.a7750a7b46428026b07d.md",
     "main.8eb4703e.css.map": "/static/css/main.8eb4703e.css.map",
-    "main.8bd06e01.js.map": "/static/js/main.8bd06e01.js.map",
+    "main.b95681e4.js.map": "/static/js/main.b95681e4.js.map",
     "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8eb4703e.css",
-    "static/js/main.8bd06e01.js"
+    "static/js/main.b95681e4.js"
   ]
 }
