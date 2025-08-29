@@ -4,15 +4,15 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Times New Roman', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-image: url(./media/winter.gif), url(./media/pouty_winter.gif);
+  /* background-image: url(./media/winter.gif), url(./media/pouty_winter.gif); */
+  background-image: url(./media/creative-doodle-art-seamless-pattern-with-different-shapes-textures_101151-1989.jpg);
   background-position: top center;
-  background-repeat: no-repeat, repeat; */
-  background-color: magenta;
+  background-repeat: repeat; 
 }
 
 
@@ -32,14 +32,14 @@ body {
 
 h1 {
 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Times New Roman', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   text-align: left;
 }
 
 .nav { 
-  background-color: aquamarine;
-  color: black;
+  background-image: url(./media/starry.gif);
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
@@ -69,9 +69,9 @@ h1 {
 }
 
 .nav li.active {
-  background-color: rgb(251, 255, 0);
+  background-color: rgb(251, 126, 0);
 }
 
 .nav li:hover {
-  background-color: orange;
+  background-color: magenta;
 }
