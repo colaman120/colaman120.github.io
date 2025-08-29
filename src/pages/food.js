@@ -22,7 +22,7 @@ class Food extends Component {
         const { posts } = this.state;
         return (
         <Fragment>
-            <Helmet title="My Fat Ass Can't Stop Eating" />
+            <Helmet title="I Can't Stop Eating" />
             <section className="section">
                 <div>
                 {
